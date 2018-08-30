@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Leelawadee UI';
+    font-weight: 300;
+}
+
+.topo{
+    width: 100%;
+    height: 400px;
+    background: url("../Imagens/predio.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.filtro{
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.7;            
+}
+
+.topo-texto{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    color: #fff;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em;
+}
+.img-topo{
+    height: 10%;
+    width: 10%;
+}
+#logo {
+    padding: 3em;
+}
+
+.alinhar{
+    text-align:center;
+}
+.contato{
+    display: flex;
+    align-self: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contato-item{
+    padding: 3em;
+}
+h1 {
+    padding: 0.3em;
+    border-style: SOLID;
+    font-size: 3em;
+    letter-spacing: 5px;
+}
+
+section{
+    padding: 3%;
+    width: 100%;
+}
+.formacao {
+    background-color: #efefef;
+}
+
+.titulo{
+    background: #d0d0d0;
+    padding: 1em;
+    text-align: center;
+}
+h2 {
+    color: #000033;
+}
+
+.conteudo{
+    display: block;
+    width: 100%;
+}
+.formacoes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.formacoes img{
+  width: 100%;
+  height: 100%;
+  
+ 
+}
+
+span { 
+    padding: 0.5em;
+    display: inline-block;
+    font-size:2em;
+    text-align: center;
+    font-weight: 500;
+}
+span b { font-size: 50%;
+padding: 0.3em; }
+
+.item{
+    padding: 1em;
+    text-align: center;        
+}
+h3 {
+    font-weight: 500;
+    font-size: 2em;
+    padding: 0.3em;
+}
+.item p {
+    font-size: 1em;
+}
+
+.tecnologias{
+    width: 100%;
+    height: 100%;
+    background: url("../Imagens/tijolo-background.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img-skills{
+    width: 5%;
+    height: 5%;
+    padding: 1em;
+ 
+}
+
+.barra{
+    display: flex;
+    height: 2em;
+    width: 100%;
+
+}
+.border-barra {
+    padding: 0.3em;
+    border: 1px solid #ccc;
+    width: 100%;
+  
+}
+
+
+.progresso {
+    
+    background-color: #049aff;
+    width: 100%;
+
+}
+.skill {
+    display:flex;
+    flex-direction: row;
+    padding: 1em;
+    align-items: center;/*alinhar barra com a imagem*/
+
+}
+
+/* mobile */
+@media screen and (max-width:420px){
+    
+
+    .topo{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .img-topo{
+        width: 35%;
+        height: 35%;
+    }
+    .contato-item{
+        flex-direction: column;
+    }
+    .h1{
+        flex-direction: column;
+    }
+    .contato{
+    flex-direction: column;
+    }
+    .banner{
+        height: 100vh;
+    }
+
+    .item{text-align: left;}
+    .item p{text-align: left; padding: 0.3em; text-align: justify;text-indent: 3em;}
+    h3{text-align: center;}
+
+    .img-skills{
+        width: 64px;
+        height: 64px;
+    }
+
+}
+
